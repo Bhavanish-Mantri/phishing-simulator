@@ -1,5 +1,4 @@
-# phishing-simulator
-⚙️ Project Structure
+ Project Structure
 
 phishing-simulator/
 ├── phishdetect_app.py        # Main Flask application
