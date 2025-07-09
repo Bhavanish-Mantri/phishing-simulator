@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+.env
+venv/
+logs/
+ngrok-stable-linux-amd64.zip
