@@ -1,80 +1,84 @@
-# 🎣 Phishing Simulator (Educational Use Only)
+# Phishing Simulator (Educational Use Only)
 
-This is a lightweight phishing simulation project built with **Python Flask**, designed to demonstrate how phishing attacks work — **strictly for educational and awareness training purposes**.
+A lightweight phishing simulation tool built with **Python** and **Flask** to demonstrate how phishing attacks work — strictly for **cybersecurity awareness and education**.
+
+---
+
+## 📌 Project Overview
+
+This project simulates a phishing page that captures submitted credentials to help learners understand how phishing attacks collect sensitive information. The tool is intended for **ethical training, awareness, and controlled lab environments only**. :contentReference[oaicite:2]{index=2}
 
 ---
 
 ## 📁 Project Structure
-
+```
 phishing-simulator/
 ├── phishdetect_app.py # Main Flask application
 ├── requirement.txt # Python dependencies
-├── templates/ # HTML templates (e.g. fake login page)
+├── templates/ # HTML templates (e.g., fake login page)
 ├── logs/ # Captured credential logs
-
+├── .gitignore
+└── README.md
+```
 
 ---
 
-## 🛠️ Getting Started
-
-Follow the steps below to run the project on **Kali Linux** or any system with Python installed.
+## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Bhavanish-Mantri/phishing-simulator.git
 cd phishing-simulator
+```
+## 2️⃣ Install Dependencies
 
-2️⃣ Install Dependencies
+Ensure you have **Python 3** and **pip** installed, then run:
 
-Make sure Python 3 and pip are installed:
-
+```bash
 pip install -r requirement.txt
+```
+## 3️⃣ Run the Flask Application
 
-3️⃣ Run the Flask Application
-
+Start the phishing simulator:
+```
 python phishdetect_app.py
-
-By default, the app will run locally at:
-
+```
+By default, the application runs locally at:
+```
 http://127.0.0.1:5050
+```
+## 🎯 Features
 
-4️⃣ Create a Public URL using Ngrok
+- 🪪 Simulates phishing through a fake login interface  
+- 📥 Logs captured credentials for demonstration purposes  
+- 🚿 Flask-powered web backend  
+- 🌐 Optional public access via ngrok  
+- ❗ Focused on ethical hacking and security training  
 
-In a new terminal window, run:
+---
 
-ngrok http 5050
+## 🔐 Ethical Use Only
 
-Ngrok will generate a secure public URL like:
+⚠️ This project is intended **strictly for ethical hacking, cybersecurity education, and awareness training**.  
+Using phishing tools on real users **without explicit permission** is illegal and unethical.  
+Always operate in a controlled environment with proper consent.
 
-https://random-id.ngrok.io
+---
 
-Use this link to test the phishing page externally (on another device, browser, or network).
-🔐 Ethical Use Only
+## 🙌 Contributing
 
-    ⚠️ Disclaimer:
-    This project is intended strictly for ethical hacking, cybersecurity education, and awareness training.
-    Do not use this tool on real users without explicit permission.
+Contributions and improvements are welcome! You can:
 
-Phishing is illegal when done maliciously. Always use in a controlled lab or for authorized training only.
-📄 License
+- 💡 Add improved phishing templates  
+- 🔐 Enhance credential logging and reporting  
+- 📊 Automate analysis and tracking  
+- 🛡 Implement defenses or detection mechanisms  
 
-This project is licensed under the MIT License.
-🤝 Contributing
+Submit a **pull request** or open an **issue** to get started.
 
-Pull requests and suggestions are welcome!
+---
 
-Feel free to contribute if you'd like to:
+## 📜 License
 
-    Add better templates 💻
-
-    Improve logging/reporting 📝
-
-    Automate phishing detection 🔍
-
-    Enhance security & tracking 🔐
-
-🙋‍♂️ Maintainer
-
-Bhavanish Mantri
-🔗 GitHub Profile
+MIT License © 2026
